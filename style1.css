@@ -1,0 +1,39 @@
+/* header section design  */
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-part{
+    width: 63%;
+    margin-left: 30px;
+}
+.text-part{
+    margin-left: 40px;
+   
+}
+.title-text{
+    font-size: 56px;
+    font-weight: 700px;
+}
+.main-text{
+
+}
+.btn-first{
+    background: #F15B22;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.btn-class{
+    position: relative;
+}
+button {
+    position: absolute;
+    right: 0; 
+  }
