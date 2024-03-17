@@ -2,7 +2,7 @@
 .first-section{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
@@ -37,3 +37,64 @@ button {
     position: absolute;
     right: 0; 
   }
+
+  /* main section design  */
+  .main-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+    }
+
+  .main-img{
+    margin: 50px 100px;
+  }
+ .main-text-title{
+    color:  #151414;
+font-family: "Work Sans";
+font-size: 40px;
+font-weight: 700;
+ }
+
+.main-container{
+    margin-left: 40px;
+    margin-top: 50px;
+ }
+
+.main-description{
+    color: #444343);
+font-family: "Work Sans";
+font-size: 16px;
+font-weight: 400;
+
+ }
+
+.other-description{
+    color: #444343;
+font-family: "Work Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+ }
+
+ .plan{
+    margin-left: 40px;
+ }
+
+ .plan-description{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    gap: 30px;
+ }
+ .my-plan{
+    color:  #151414;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px;
+ }
