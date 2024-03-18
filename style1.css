@@ -3,15 +3,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-image: url(./images/banner/banner1.png);
+    height: 809px;
 
 }
-
-.img-part{
-    width: 63%;
-    margin-left: 30px;
+body{
+    width: 100%;
 }
+
+/* .img-part{
+    height: auto;
+    width: auto;
+}
+.img-set{
+    max-width: 100%;
+    max-height: 100%;
+} */
 .text-part{
-    margin-left: 40px;
+    margin-left: 800px;
+    
+
    
 }
 .title-text{
@@ -50,7 +61,9 @@ button {
     }
 
   .main-img{
-    margin: 50px 100px;
+    /* margin: 50px 100px; */
+    margin-left: 70px;
+    margin-top: 84px;
   }
  .main-text-title{
     color:  #151414;
@@ -61,7 +74,7 @@ font-weight: 700;
 
 .main-container{
     margin-left: 40px;
-    margin-top: 50px;
+    margin-top: 197px;
  }
 
 .main-description{
@@ -81,7 +94,7 @@ line-height: 30px;
  }
 
  .plan{
-    margin-left: 40px;
+    margin-left: 25px;
  }
 
  .plan-description{
@@ -91,10 +104,21 @@ line-height: 30px;
     gap: 30px;
  }
  .my-plan{
+    color: #151414;
+font-family: "Work Sans";
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+margin-top: 70px;
+padding: 20px;
+ }
+ .plan-img{
+margin-left: 80px;
+ }
+ .skill{
     color:  #151414;
-    text-align: center;
-    font-family: "Work Sans";
-    font-size: 30px;
-    font-weight: 700;
-    padding: 30px;
+
+font-family: "Work Sans";
+font-size: 30px;
+font-weight: 700;
  }
