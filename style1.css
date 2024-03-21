@@ -254,12 +254,12 @@ font-weight: 400;
 }
 .Subscribe1{
     color: #FFF;
-font-size: 25px;
+font-size: 30px;
 font-weight: 600;
 
 }
 .footer-input{
-    padding: 10px;
+    padding: 16px;
     border-radius: 8px;
 border: 1px solid #FFF;
 }
@@ -268,7 +268,7 @@ border: 1px solid #FFF;
     color: #F15B22;
 font-size: 20px;
 font-weight: 600;
-padding: 10px;
+padding: 16px;
 border-radius: 8px;
 background: #FFF;
 }
